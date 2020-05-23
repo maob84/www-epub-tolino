@@ -1,0 +1,5 @@
+PATH=/usr/bin:/bin:/usr/local/bin:$HOME/bin:$PATH
+
+:0 w
+* ^From.*noreply@epub.press
+| (cd $HOME/tolino-epubs && munpack -f -q -t; $HOME/www-epub-tolino/tolino-python/tolinoclient.py --config ~/.tolinoclientrc upload EpubPress.epub; rm -f EpubPress.epub part*)
