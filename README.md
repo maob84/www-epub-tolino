@@ -39,7 +39,7 @@ implementes the process and realizes my inital idea.
 folder)
  5. When a new mail from EpubPress is found, it is downloaded and the
     attachment is extracted.
- 6. Finally the epub is uploaded via the [toloino cloud api CLI](github.com/hzulla/tolino-python)
+ 6. Finally the epub is uploaded via the [toloino cloud api CLI](https://github.com/hzulla/tolino-python)
     to your tolino cloud.
 
 
